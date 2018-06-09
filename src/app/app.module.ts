@@ -6,7 +6,12 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 
 export const firebaseConfig ={
- // You will have this information from firebase .
+  apiKey: "AIzaSyAbyeJNHMcY_kwajMDQXjM3t-iKSN3GwM4",
+    authDomain: "dating-app-892cc.firebaseapp.com",
+    databaseURL: "https://dating-app-892cc.firebaseio.com",
+    projectId: "dating-app-892cc",
+    storageBucket: "dating-app-892cc.appspot.com",
+    messagingSenderId: "363692606630"
 };
 
 @NgModule({
